@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\HEMANTH RK\AppData\Local\Temp\testng-eclipse-2039905086\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">47 methods,   47 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[contains(@type,&#039;text&#039;) and contains (@id, &#039;Skills&#039;)], Adobe InDesign...)">Registration(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;email&#039;], raveek@gmail.com, emailaddress, null)">Registration(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;radio&#039; and @value=&#039;Male&#039;], 0.0, gendermale, null)">Registration(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;First Name&#039;], Ravi123, firstname, n...)">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//button[@id=&#039;btn2&#039;], 0.0, skip signin, null)">Registration(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;Last Name&#039;], Shankar, lastname, nul...)">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, nul...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//textarea[@rows=&#039;3&#039;], Erode, address, null)">Registration(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;radio&#039; and @value=&#039;Male&#039;], 0.0, gendermale, null)">Registration(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Day&#039;], 13, selectYear, null)">Registration(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)">Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Keyword, Locator, InputData, Purpose, null)">Registration(Keyword, Locator, InputData, Purpose, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@type=&#039;text&#039; and @id=&#039;yearbox&#039;], 1988, selectDate, null)">Registration(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//a[text()=&#039;English&#039;], English, clickonEnglish, null)">Registration(Click, xpath~~//a[text()='English'], English, clickonEnglish, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[contains(@type,&#039;text&#039;) and contains (@id, &#039;Skills&#039;)], Adobe InDesign...)">Registration(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//div[@id=&#039;msdd&#039;], 0.0, clickonlanuages, null)">Registration(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//a[text()=&#039;English&#039;], English, clickonEnglish, null)">Registration(Click, xpath~~//a[text()='English'], English, clickonEnglish, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;Last Name&#039;], Shankar, lastname, nul...)">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, nul...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@id=&#039;country&#039;], Australia, selectCountry1, null)">Registration(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)">Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Month&#039;], January, selectDay, null)">Registration(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Cricket&#039;], Cricket, selectHobbies, null)">Registration(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Hockey&#039;], Hockey, selectHobbies, null)">Registration(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Movies&#039;], Movies, selectHobbies, null)">Registration(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//textarea[@rows=&#039;3&#039;], Erode, address, null)">Registration(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Month&#039;], January, selectDay, null)">Registration(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Movies&#039;], Movies, selectHobbies, null)">Registration(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;firstpassword&#039;)], 123456789, enterPassword, null)">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@type=&#039;text&#039; and @id=&#039;yearbox&#039;], 1988, selectDate, null)">Registration(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[contains(@type, &#039;text&#039;) and contains(@id, &#039;countries&#039;)], India, sele...)">Registration(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, sele...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Day&#039;], 13, selectYear, null)">Registration(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;tel&#039;], 9566332238, phonenumber, null)">Registration(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;firstpassword&#039;)], 123456789, enterPassword, null)">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;secondpassword&#039;)], 123456789, enterConfirmPassword, ...)">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//button[@id=&#039;btn2&#039;], 0.0, skip signin, null)">Registration(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Hockey&#039;], Hockey, selectHobbies, null)">Registration(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;First Name&#039;], Ravi123, firstname, n...)">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//div[@id=&#039;msdd&#039;], 0.0, clickonlanuages, null)">Registration(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[@id=&#039;country&#039;], Australia, selectCountry1, null)">Registration(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Cricket&#039;], Cricket, selectHobbies, null)">Registration(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;secondpassword&#039;)], 123456789, enterConfirmPassword, ...)">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;email&#039;], raveek@gmail.com, emailaddress, null)">Registration(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(selectDropdown, xpath~~//select[contains(@type, &#039;text&#039;) and contains(@id, &#039;countries&#039;)], India, sele...)">Registration(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, sele...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCase.autoWeb" hash-for-method="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;tel&#039;], 9566332238, phonenumber, null)">Registration(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.autoWeb</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[contains(@type,&#039;text&#039;) and contains (@id, &#039;Skills&#039;)], Adobe InDesign...)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign, selectSkills, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;email&#039;], raveek@gmail.com, emailaddress, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;radio&#039; and @value=&#039;Male&#039;], 0.0, gendermale, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;First Name&#039;], Ravi123, firstname, n...)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, n...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//button[@id=&#039;btn2&#039;], 0.0, skip signin, null)">
+                  </a> <!-- Registration(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;Last Name&#039;], Shankar, lastname, nul...)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, nul...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//textarea[@rows=&#039;3&#039;], Erode, address, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;radio&#039; and @value=&#039;Male&#039;], 0.0, gendermale, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Day&#039;], 13, selectYear, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)">
+                  </a> <!-- Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Keyword, Locator, InputData, Purpose, null)">
+                  </a> <!-- Registration(Keyword, Locator, InputData, Purpose, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Keyword, Locator, InputData, Purpose, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@type=&#039;text&#039; and @id=&#039;yearbox&#039;], 1988, selectDate, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//a[text()=&#039;English&#039;], English, clickonEnglish, null)">
+                  </a> <!-- Registration(Click, xpath~~//a[text()='English'], English, clickonEnglish, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//a[text()='English'], English, clickonEnglish, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[contains(@type,&#039;text&#039;) and contains (@id, &#039;Skills&#039;)], Adobe InDesign...)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign, selectSkills, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//div[@id=&#039;msdd&#039;], 0.0, clickonlanuages, null)">
+                  </a> <!-- Registration(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//a[text()=&#039;English&#039;], English, clickonEnglish, null)">
+                  </a> <!-- Registration(Click, xpath~~//a[text()='English'], English, clickonEnglish, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//a[text()='English'], English, clickonEnglish, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;Last Name&#039;], Shankar, lastname, nul...)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, nul...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@id=&#039;country&#039;], Australia, selectCountry1, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)">
+                  </a> <!-- Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Month&#039;], January, selectDay, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Cricket&#039;], Cricket, selectHobbies, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Hockey&#039;], Hockey, selectHobbies, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Movies&#039;], Movies, selectHobbies, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//textarea[@rows=&#039;3&#039;], Erode, address, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Month&#039;], January, selectDay, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Movies&#039;], Movies, selectHobbies, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;firstpassword&#039;)], 123456789, enterPassword, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@type=&#039;text&#039; and @id=&#039;yearbox&#039;], 1988, selectDate, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[contains(@type, &#039;text&#039;) and contains(@id, &#039;countries&#039;)], India, sele...)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, sele...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, selectCountry, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@placeholder = &#039;Day&#039;], 13, selectYear, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;tel&#039;], 9566332238, phonenumber, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;firstpassword&#039;)], 123456789, enterPassword, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;secondpassword&#039;)], 123456789, enterConfirmPassword, ...)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, ...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//button[@id=&#039;btn2&#039;], 0.0, skip signin, null)">
+                  </a> <!-- Registration(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Hockey&#039;], Hockey, selectHobbies, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;text&#039; and @placeholder=&#039;First Name&#039;], Ravi123, firstname, n...)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, n...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//div[@id=&#039;msdd&#039;], 0.0, clickonlanuages, null)">
+                  </a> <!-- Registration(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[@id=&#039;country&#039;], Australia, selectCountry1, null)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;checkbox&#039; and @value=&#039;Cricket&#039;], Cricket, selectHobbies, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(Click, xpath~~//input[@type=&#039;tel&#039;], 0.0, 0.0, null)">
+                  </a> <!-- Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[contains(@id,&#039;secondpassword&#039;)], 123456789, enterConfirmPassword, ...)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, ...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;email&#039;], raveek@gmail.com, emailaddress, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(selectDropdown, xpath~~//select[contains(@type, &#039;text&#039;) and contains(@id, &#039;countries&#039;)], India, sele...)">
+                  </a> <!-- Registration(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, sele...) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, selectCountry, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration(enterTextBoxValue, xpath~~//input[@type=&#039;tel&#039;], 9566332238, phonenumber, null)">
+                  </a> <!-- Registration(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null) -->
+                  <span class="method-name">Registration</span>
+                  <span class="parameters">(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HEMANTH RK\AppData\Local\Temp\testng-eclipse-2039905086\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;commonUtility.SeleniumMethods&quot;/&gt;
+      &lt;class name=&quot;excel.propertyRead&quot;/&gt;
+      &lt;class name=&quot;testCase.autoWeb&quot;/&gt;
+      &lt;class name=&quot;excel.excelRead&quot;/&gt;
+      &lt;class name=&quot;commonUtility.KeywordMethods&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(47);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Registration')
+data.setCell(0, 2, 'testCase.autoWeb')
+data.setCell(0, 3, 6434);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Registration')
+data.setCell(1, 2, 'testCase.autoWeb')
+data.setCell(1, 3, 2797);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Registration')
+data.setCell(2, 2, 'testCase.autoWeb')
+data.setCell(2, 3, 1967);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Registration')
+data.setCell(3, 2, 'testCase.autoWeb')
+data.setCell(3, 3, 357);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Registration')
+data.setCell(4, 2, 'testCase.autoWeb')
+data.setCell(4, 3, 311);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Registration')
+data.setCell(5, 2, 'testCase.autoWeb')
+data.setCell(5, 3, 309);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Registration')
+data.setCell(6, 2, 'testCase.autoWeb')
+data.setCell(6, 3, 299);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Registration')
+data.setCell(7, 2, 'testCase.autoWeb')
+data.setCell(7, 3, 274);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Registration')
+data.setCell(8, 2, 'testCase.autoWeb')
+data.setCell(8, 3, 236);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Registration')
+data.setCell(9, 2, 'testCase.autoWeb')
+data.setCell(9, 3, 227);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Registration')
+data.setCell(10, 2, 'testCase.autoWeb')
+data.setCell(10, 3, 226);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Registration')
+data.setCell(11, 2, 'testCase.autoWeb')
+data.setCell(11, 3, 221);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Registration')
+data.setCell(12, 2, 'testCase.autoWeb')
+data.setCell(12, 3, 205);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Registration')
+data.setCell(13, 2, 'testCase.autoWeb')
+data.setCell(13, 3, 193);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Registration')
+data.setCell(14, 2, 'testCase.autoWeb')
+data.setCell(14, 3, 189);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Registration')
+data.setCell(15, 2, 'testCase.autoWeb')
+data.setCell(15, 3, 176);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Registration')
+data.setCell(16, 2, 'testCase.autoWeb')
+data.setCell(16, 3, 174);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Registration')
+data.setCell(17, 2, 'testCase.autoWeb')
+data.setCell(17, 3, 167);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Registration')
+data.setCell(18, 2, 'testCase.autoWeb')
+data.setCell(18, 3, 164);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Registration')
+data.setCell(19, 2, 'testCase.autoWeb')
+data.setCell(19, 3, 164);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Registration')
+data.setCell(20, 2, 'testCase.autoWeb')
+data.setCell(20, 3, 162);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Registration')
+data.setCell(21, 2, 'testCase.autoWeb')
+data.setCell(21, 3, 152);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Registration')
+data.setCell(22, 2, 'testCase.autoWeb')
+data.setCell(22, 3, 147);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Registration')
+data.setCell(23, 2, 'testCase.autoWeb')
+data.setCell(23, 3, 146);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Registration')
+data.setCell(24, 2, 'testCase.autoWeb')
+data.setCell(24, 3, 146);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Registration')
+data.setCell(25, 2, 'testCase.autoWeb')
+data.setCell(25, 3, 138);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Registration')
+data.setCell(26, 2, 'testCase.autoWeb')
+data.setCell(26, 3, 136);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Registration')
+data.setCell(27, 2, 'testCase.autoWeb')
+data.setCell(27, 3, 134);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Registration')
+data.setCell(28, 2, 'testCase.autoWeb')
+data.setCell(28, 3, 132);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Registration')
+data.setCell(29, 2, 'testCase.autoWeb')
+data.setCell(29, 3, 132);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Registration')
+data.setCell(30, 2, 'testCase.autoWeb')
+data.setCell(30, 3, 127);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Registration')
+data.setCell(31, 2, 'testCase.autoWeb')
+data.setCell(31, 3, 118);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Registration')
+data.setCell(32, 2, 'testCase.autoWeb')
+data.setCell(32, 3, 116);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Registration')
+data.setCell(33, 2, 'testCase.autoWeb')
+data.setCell(33, 3, 116);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Registration')
+data.setCell(34, 2, 'testCase.autoWeb')
+data.setCell(34, 3, 109);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Registration')
+data.setCell(35, 2, 'testCase.autoWeb')
+data.setCell(35, 3, 103);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Registration')
+data.setCell(36, 2, 'testCase.autoWeb')
+data.setCell(36, 3, 102);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Registration')
+data.setCell(37, 2, 'testCase.autoWeb')
+data.setCell(37, 3, 101);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Registration')
+data.setCell(38, 2, 'testCase.autoWeb')
+data.setCell(38, 3, 101);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Registration')
+data.setCell(39, 2, 'testCase.autoWeb')
+data.setCell(39, 3, 99);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Registration')
+data.setCell(40, 2, 'testCase.autoWeb')
+data.setCell(40, 3, 98);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Registration')
+data.setCell(41, 2, 'testCase.autoWeb')
+data.setCell(41, 3, 97);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'Registration')
+data.setCell(42, 2, 'testCase.autoWeb')
+data.setCell(42, 3, 97);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Registration')
+data.setCell(43, 2, 'testCase.autoWeb')
+data.setCell(43, 3, 89);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Registration')
+data.setCell(44, 2, 'testCase.autoWeb')
+data.setCell(44, 3, 85);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Registration')
+data.setCell(45, 2, 'testCase.autoWeb')
+data.setCell(45, 3, 65);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Registration')
+data.setCell(46, 2, 'testCase.autoWeb')
+data.setCell(46, 3, 8);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCase.autoWeb</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">property</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Registration(Keyword, Locator, InputData, Purpose, null)</span>
+                <span class="method-start">5658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)</span>
+                <span class="method-start">5669 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null)</span>
+                <span class="method-start">8469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, n...)</span>
+                <span class="method-start">14905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, nul...)</span>
+                <span class="method-start">15183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null)</span>
+                <span class="method-start">15378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null)</span>
+                <span class="method-start">15499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null)</span>
+                <span class="method-start">15801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null)</span>
+                <span class="method-start">16009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null)</span>
+                <span class="method-start">16110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null)</span>
+                <span class="method-start">16220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null)</span>
+                <span class="method-start">16318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null)</span>
+                <span class="method-start">16417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//a[text()='English'], English, clickonEnglish, null)</span>
+                <span class="method-start">16521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign...)</span>
+                <span class="method-start">16675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, sele...)</span>
+                <span class="method-start">16851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                <span class="method-start">16998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null)</span>
+                <span class="method-start">17092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                <span class="method-start">17241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null)</span>
+                <span class="method-start">17346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null)</span>
+                <span class="method-start">17514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null)</span>
+                <span class="method-start">17744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null)</span>
+                <span class="method-start">17908 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, ...)</span>
+                <span class="method-start">18221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(OpenWebSite, 0.0, http://demo.automationtesting.in/Index.html, open webBrowser, null)</span>
+                <span class="method-start">18449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//button[@id='btn2'], 0.0, skip signin, null)</span>
+                <span class="method-start">18813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='First Name'], Ravi123, firstname, n...)</span>
+                <span class="method-start">20782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='text' and @placeholder='Last Name'], Shankar, lastname, nul...)</span>
+                <span class="method-start">20972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//textarea[@rows='3'], Erode, address, null)</span>
+                <span class="method-start">21140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='email'], raveek@gmail.com, emailaddress, null)</span>
+                <span class="method-start">21257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[@type='tel'], 9566332238, phonenumber, null)</span>
+                <span class="method-start">21567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='radio' and @value='Male'], 0.0, gendermale, null)</span>
+                <span class="method-start">21804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='checkbox' and @value='Cricket'], Cricket, selectHobbies, null)</span>
+                <span class="method-start">21937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='checkbox' and @value='Movies'], Movies, selectHobbies, null)</span>
+                <span class="method-start">22040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='checkbox' and @value='Hockey'], Hockey, selectHobbies, null)</span>
+                <span class="method-start">22140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//div[@id='msdd'], 0.0, clickonlanuages, null)</span>
+                <span class="method-start">22257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//a[text()='English'], English, clickonEnglish, null)</span>
+                <span class="method-start">22359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')], Adobe InDesign...)</span>
+                <span class="method-start">22496 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')], India, sele...)</span>
+                <span class="method-start">22662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                <span class="method-start">22801 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@id='country'], Australia, selectCountry1, null)</span>
+                <span class="method-start">22888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(Click, xpath~~//input[@type='tel'], 0.0, 0.0, null)</span>
+                <span class="method-start">23017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@type='text' and @id='yearbox'], 1988, selectDate, null)</span>
+                <span class="method-start">23083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@placeholder = 'Month'], January, selectDay, null)</span>
+                <span class="method-start">23230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(selectDropdown, xpath~~//select[@placeholder = 'Day'], 13, selectYear, null)</span>
+                <span class="method-start">23363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'firstpassword')], 123456789, enterPassword, null)</span>
+                <span class="method-start">23500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration(enterTextBoxValue, xpath~~//input[contains(@id,'secondpassword')], 123456789, enterConfirmPassword, ...)</span>
+                <span class="method-start">23677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">23900 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

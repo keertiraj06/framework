@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="47" passed="47">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26023" started-at="2019-09-14T05:34:57Z" finished-at="2019-09-14T05:35:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26023" started-at="2019-09-14T05:34:57Z" finished-at="2019-09-14T05:35:23Z">
+      <class name="testCase.autoWeb">
+        <test-method status="PASS" signature="property()[pri:0, instance:testCase.autoWeb@51efea79]" name="property" is-config="true" duration-ms="5299" started-at="2019-09-14T11:04:57Z" finished-at="2019-09-14T11:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- property -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="8" started-at="2019-09-14T11:05:03Z" data-provider="methodData" finished-at="2019-09-14T11:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Locator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InputData]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Purpose]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="2797" started-at="2019-09-14T11:05:03Z" data-provider="methodData" finished-at="2019-09-14T11:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OpenWebSite]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.automationtesting.in/Index.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[open webBrowser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="6434" started-at="2019-09-14T11:05:06Z" data-provider="methodData" finished-at="2019-09-14T11:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//button[@id='btn2']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[skip signin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="274" started-at="2019-09-14T11:05:12Z" data-provider="methodData" finished-at="2019-09-14T11:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='text' and @placeholder='First Name']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravi123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="193" started-at="2019-09-14T11:05:13Z" data-provider="methodData" finished-at="2019-09-14T11:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='text' and @placeholder='Last Name']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="118" started-at="2019-09-14T11:05:13Z" data-provider="methodData" finished-at="2019-09-14T11:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//textarea[@rows='3']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Erode]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[address]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="299" started-at="2019-09-14T11:05:13Z" data-provider="methodData" finished-at="2019-09-14T11:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='email']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raveek@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emailaddress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="205" started-at="2019-09-14T11:05:13Z" data-provider="methodData" finished-at="2019-09-14T11:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='tel']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9566332238]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[phonenumber]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="98" started-at="2019-09-14T11:05:13Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='radio' and @value='Male']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gendermale]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="109" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='checkbox' and @value='Cricket']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cricket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectHobbies]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="97" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='checkbox' and @value='Movies']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Movies]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectHobbies]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="97" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='checkbox' and @value='Hockey']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hockey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectHobbies]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="103" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//div[@id='msdd']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clickonlanuages]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="152" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//a[text()='English']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clickonEnglish]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="174" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adobe InDesign]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectSkills]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="146" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectCountry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="89" started-at="2019-09-14T11:05:14Z" data-provider="methodData" finished-at="2019-09-14T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='tel']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="147" started-at="2019-09-14T11:05:15Z" data-provider="methodData" finished-at="2019-09-14T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@id='country']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectCountry1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="101" started-at="2019-09-14T11:05:15Z" data-provider="methodData" finished-at="2019-09-14T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='tel']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="164" started-at="2019-09-14T11:05:15Z" data-provider="methodData" finished-at="2019-09-14T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@type='text' and @id='yearbox']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectDate]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="227" started-at="2019-09-14T11:05:15Z" data-provider="methodData" finished-at="2019-09-14T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@placeholder = 'Month']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectDay]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="162" started-at="2019-09-14T11:05:15Z" data-provider="methodData" finished-at="2019-09-14T11:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@placeholder = 'Day']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectYear]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="311" started-at="2019-09-14T11:05:15Z" data-provider="methodData" finished-at="2019-09-14T11:05:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[contains(@id,'firstpassword')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[enterPassword]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="226" started-at="2019-09-14T11:05:16Z" data-provider="methodData" finished-at="2019-09-14T11:05:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[contains(@id,'secondpassword')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[enterConfirmPassword]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="357" started-at="2019-09-14T11:05:16Z" data-provider="methodData" finished-at="2019-09-14T11:05:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OpenWebSite]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://demo.automationtesting.in/Index.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[open webBrowser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="1967" started-at="2019-09-14T11:05:16Z" data-provider="methodData" finished-at="2019-09-14T11:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//button[@id='btn2']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[skip signin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="189" started-at="2019-09-14T11:05:18Z" data-provider="methodData" finished-at="2019-09-14T11:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='text' and @placeholder='First Name']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravi123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="167" started-at="2019-09-14T11:05:18Z" data-provider="methodData" finished-at="2019-09-14T11:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='text' and @placeholder='Last Name']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="116" started-at="2019-09-14T11:05:19Z" data-provider="methodData" finished-at="2019-09-14T11:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//textarea[@rows='3']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Erode]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[address]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="309" started-at="2019-09-14T11:05:19Z" data-provider="methodData" finished-at="2019-09-14T11:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='email']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raveek@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emailaddress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="236" started-at="2019-09-14T11:05:19Z" data-provider="methodData" finished-at="2019-09-14T11:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='tel']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9566332238]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[phonenumber]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="132" started-at="2019-09-14T11:05:19Z" data-provider="methodData" finished-at="2019-09-14T11:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='radio' and @value='Male']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gendermale]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="102" started-at="2019-09-14T11:05:19Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='checkbox' and @value='Cricket']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cricket]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectHobbies]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="99" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='checkbox' and @value='Movies']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Movies]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectHobbies]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="116" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='checkbox' and @value='Hockey']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hockey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectHobbies]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="101" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//div[@id='msdd']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clickonlanuages]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="134" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//a[text()='English']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[clickonEnglish]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="164" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[contains(@type,'text') and contains (@id, 'Skills')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Adobe InDesign]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectSkills]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="138" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[contains(@type, 'text') and contains(@id, 'countries')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectCountry]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="85" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='tel']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="127" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@id='country']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectCountry1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="65" started-at="2019-09-14T11:05:20Z" data-provider="methodData" finished-at="2019-09-14T11:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Click]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[@type='tel']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="146" started-at="2019-09-14T11:05:21Z" data-provider="methodData" finished-at="2019-09-14T11:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@type='text' and @id='yearbox']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1988]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectDate]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="132" started-at="2019-09-14T11:05:21Z" data-provider="methodData" finished-at="2019-09-14T11:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@placeholder = 'Month']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectDay]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="136" started-at="2019-09-14T11:05:21Z" data-provider="methodData" finished-at="2019-09-14T11:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selectDropdown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//select[@placeholder = 'Day']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selectYear]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="176" started-at="2019-09-14T11:05:21Z" data-provider="methodData" finished-at="2019-09-14T11:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[contains(@id,'firstpassword')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[enterPassword]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Registration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.autoWeb@51efea79]" name="Registration" duration-ms="221" started-at="2019-09-14T11:05:21Z" data-provider="methodData" finished-at="2019-09-14T11:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterTextBoxValue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xpath~~//input[contains(@id,'secondpassword')]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[enterConfirmPassword]]>
+              </value>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCase.autoWeb@51efea79]" name="close" is-config="true" duration-ms="2107" started-at="2019-09-14T11:05:21Z" finished-at="2019-09-14T11:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCase.autoWeb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
